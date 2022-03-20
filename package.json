@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "jest": "^27.5.1"
+  },
+  "name": "team-profile-generator",
+  "description": "This application is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAziz24/Team-Profile-Generator.git"
+  },
+  "author": "Sumailah Aziz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAziz24/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/SAziz24/Team-Profile-Generator#readme"
+}
