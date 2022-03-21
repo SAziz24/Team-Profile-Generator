@@ -80,11 +80,7 @@ const addManager = () => {
 };
 
 const addEmployee = () => {
-    console.log(`
-    =================
-    Adding employees to the team
-    =================
-    `);
+    console.log(`Adding Employee`);
 
     return inquirer.prompt ([
         {
@@ -204,7 +200,7 @@ const writeFile = data => {
             return;
         // when the profile has been created 
         } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
+            console.log("Your team profile has been successfully created! Navigate to the index.html")
         }
     })
 }; 
