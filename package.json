@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "inquirer": "^8.2.1",
+    "inquirer-loop": "^0.3.0",
     "jest": "^27.5.1"
   },
   "name": "team-profile-generator",
